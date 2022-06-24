@@ -1,0 +1,32 @@
+@import "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "ROCK", serif;
+  background-color: #2d3436;
+  color: #dfe6e9;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  &-logo {
+    height: 100px;
+    img {
+      height: 100%;
+    }
+  }
+  &-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+}
