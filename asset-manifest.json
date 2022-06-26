@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/theCoolest-Hiring/static/css/main.14d6ac38.css",
-    "main.js": "/theCoolest-Hiring/static/js/main.27f580f6.js",
-    "static/js/787.ecca19ad.chunk.js": "/theCoolest-Hiring/static/js/787.ecca19ad.chunk.js",
-    "static/media/ROCK.TTF": "/theCoolest-Hiring/static/media/ROCK.d4c47d23aceb5a1710d6.TTF",
-    "static/media/TulpenOne-Regular.ttf": "/theCoolest-Hiring/static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
-    "index.html": "/theCoolest-Hiring/index.html",
-    "main.14d6ac38.css.map": "/theCoolest-Hiring/static/css/main.14d6ac38.css.map",
-    "main.27f580f6.js.map": "/theCoolest-Hiring/static/js/main.27f580f6.js.map",
-    "787.ecca19ad.chunk.js.map": "/theCoolest-Hiring/static/js/787.ecca19ad.chunk.js.map"
+    "main.css": "./static/css/main.a31d2da6.css",
+    "main.js": "./static/js/main.ebb16080.js",
+    "static/js/787.ecca19ad.chunk.js": "./static/js/787.ecca19ad.chunk.js",
+    "static/media/ROCK.TTF": "./static/media/ROCK.d4c47d23aceb5a1710d6.TTF",
+    "static/media/TulpenOne-Regular.ttf": "./static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
+    "index.html": "./index.html",
+    "main.a31d2da6.css.map": "./static/css/main.a31d2da6.css.map",
+    "main.ebb16080.js.map": "./static/js/main.ebb16080.js.map",
+    "787.ecca19ad.chunk.js.map": "./static/js/787.ecca19ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14d6ac38.css",
-    "static/js/main.27f580f6.js"
+    "static/css/main.a31d2da6.css",
+    "static/js/main.ebb16080.js"
   ]
 }
