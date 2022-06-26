@@ -2,6 +2,7 @@
   "name": "thecoolest-hiring",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -10,6 +11,7 @@
     "@types/node": "^16.11.41",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "gh-pages": "^4.0.0",
     "lightgallery": "^2.5.0",
     "node-sass": "^7.0.1",
     "photoswipe": "^5.2.8",
@@ -27,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [

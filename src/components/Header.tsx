@@ -4,7 +4,7 @@ const Header: FC = (): JSX.Element => {
   return (
     <div className="header">
       <div className="header-logo">
-        <img src="/assets/images/logo.svg" alt="theCoolest Logo"/>
+        <img src="./assets/images/logo.svg" alt="theCoolest Logo"/>
       </div>
 
       <div className="header-nav">

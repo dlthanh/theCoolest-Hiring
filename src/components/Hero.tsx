@@ -4,7 +4,7 @@ const Hero: FC = (): JSX.Element => {
   return (
     <div className="hero">
       <div className="hero-logo">
-        <img src="/assets/images/logo.svg" alt=""/>
+        <img src="./assets/images/logo.svg" alt=""/>
       </div>
     </div>
   );
