@@ -3,10 +3,18 @@
     "job": "Nhân viên pha chế",
     "quantity": 3,
     "salary": "5.000.000đ",
+    "working_time": "8h30 - 17h30 (từ thứ 2 - thứ 7, thứ 7 làm việc cách tuần)",
+    "address": "Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
     "description": [
       "Quản lí các hoạt động về hành chính, văn phòng",
       "Quản lí, lưu trữ hồ sơ nhân viên",
       "Xây dựng được kế hoạch tuyển dụng cụ thể, kiểm soát thực hiện tuyển dụng hiệu quả"
+    ],
+    "benefits": [
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty",
+      "Được làm việc tại một môi trường năng động, thân thiện.",
+      "Có cơ hội để học hỏi rất nhanh và phát triển sự nghiệp bền vững trong ngành F&B."
     ],
     "requirements": [
       "Tốt nghiệp Cao đẳng hoặc Đại học trở lên",
@@ -18,10 +26,18 @@
     "job": "Nhân viên pha chế",
     "quantity": 3,
     "salary": "5.000.000đ",
+    "working_time": "8h30 - 17h30 (từ thứ 2 - thứ 7, thứ 7 làm việc cách tuần)",
+    "address": "Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
     "description": [
       "Quản lí các hoạt động về hành chính, văn phòng",
       "Quản lí, lưu trữ hồ sơ nhân viên",
       "Xây dựng được kế hoạch tuyển dụng cụ thể, kiểm soát thực hiện tuyển dụng hiệu quả"
+    ],
+    "benefits": [
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty",
+      "Được làm việc tại một môi trường năng động, thân thiện.",
+      "Có cơ hội để học hỏi rất nhanh và phát triển sự nghiệp bền vững trong ngành F&B."
     ],
     "requirements": [
       "Tốt nghiệp Cao đẳng hoặc Đại học trở lên",
@@ -33,25 +49,18 @@
     "job": "Nhân viên pha chế",
     "quantity": 3,
     "salary": "5.000.000đ",
+    "working_time": "8h30 - 17h30 (từ thứ 2 - thứ 7, thứ 7 làm việc cách tuần)",
+    "address": "Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
     "description": [
       "Quản lí các hoạt động về hành chính, văn phòng",
       "Quản lí, lưu trữ hồ sơ nhân viên",
       "Xây dựng được kế hoạch tuyển dụng cụ thể, kiểm soát thực hiện tuyển dụng hiệu quả"
     ],
-    "requirements": [
-      "Tốt nghiệp Cao đẳng hoặc Đại học trở lên",
-      "Tối thiểu 1 năm kinh nghiệm trong các doanh nghiệp",
-      "Tư duy linh hoạt và thích nghi"
-    ]
-  },
-  {
-    "job": "Nhân viên pha chế",
-    "quantity": 3,
-    "salary": "5.000.000đ",
-    "description": [
-      "Quản lí các hoạt động về hành chính, văn phòng",
-      "Quản lí, lưu trữ hồ sơ nhân viên",
-      "Xây dựng được kế hoạch tuyển dụng cụ thể, kiểm soát thực hiện tuyển dụng hiệu quả"
+    "benefits": [
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty",
+      "Được làm việc tại một môi trường năng động, thân thiện.",
+      "Có cơ hội để học hỏi rất nhanh và phát triển sự nghiệp bền vững trong ngành F&B."
     ],
     "requirements": [
       "Tốt nghiệp Cao đẳng hoặc Đại học trở lên",

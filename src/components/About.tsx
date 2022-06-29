@@ -5,14 +5,14 @@ import WhyWeDoThis from "./WhyWeDoThis";
 import CoreValue from "./CoreValue";
 import WhyYouWhyUs from "./WhyYouWhyUs";
 
-const About: FC<{onDirect: () => void}> = ({ onDirect }): JSX.Element => {
+const About: FC = (): JSX.Element => {
   return (
     <div className="about">
       <WhoWeAre />
       <WhatWePursuit />
       <WhyWeDoThis />
       <CoreValue />
-      <WhyYouWhyUs onDirect={onDirect}/>
+      <WhyYouWhyUs />
     </div>
   );
 };

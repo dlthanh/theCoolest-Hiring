@@ -1,10 +1,13 @@
-import React, { FC, PropsWithChildren } from "react";
+import React, { FC } from "react";
 
 interface JobInterface {
     job: string,
     quantity: number
     salary: string
+    working_time: string
+    address: string
     description: string[],
+    benefits: string[]
     requirements: string[]
 }
 
@@ -18,8 +21,16 @@ const TuyenDungItem: FC<TuyenDungItemProps> = ({ data }): JSX.Element => {
       <div className="hiring-title">{data.job}</div>
 
       <div className="hiring-info">
-        <div className="hiring-info-item">Số lượng: {data.quantity}</div>
-        <div className="hiring-info-item">Mức lương: {data.salary}</div>
+        <div className="row">
+          <div className="hiring-info-item"><span>Số lượng:</span> {data.quantity}</div>
+          <div className="hiring-info-item"><span>Mức lương:</span> {data.salary}</div>
+        </div>
+        <div className="row">
+          <div className="hiring-info-item"><span>Thời gian:</span> {data.working_time}</div>
+        </div>
+        <div className="row">
+          <div className="hiring-info-item"><span>Địa chỉ:</span> {data.address}</div>
+        </div>
       </div>
 
       <div className="hiring-main">
@@ -31,9 +42,16 @@ const TuyenDungItem: FC<TuyenDungItemProps> = ({ data }): JSX.Element => {
         </div>
 
         <div className="col">
-          <div className="hiring-subtitle">Yêu cầu ứng viên</div>
+          <div className="hiring-subtitle">Yêu cầu</div>
           <ul className="hiring-content">
             {data.requirements.map((item, index) => <li key={index}>{item}</li>)}
+          </ul>
+        </div>
+
+        <div className="col">
+          <div className="hiring-subtitle">Quyền lợi</div>
+          <ul className="hiring-content">
+            {data.benefits.map((item, index) => <li key={index}>{item}</li>)}
           </ul>
         </div>
       </div>

@@ -3,22 +3,24 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import TuyenDung from "./components/TuyenDung";
+import { useRoutes } from "react-router-dom";
 
 function App() {
-  const [Component, setComponent] = useState<ReactElement>(<Home onDirect={() => setComponent(<TuyenDung />)} />);
-
-  const handlePage = (page: string) => {
-    if (page === "trang-chu") {
-      setComponent(<Home onDirect={() => setComponent(<TuyenDung />)} />);
-    } else if (page === "tuyen-dung") {
-      setComponent(<TuyenDung />);
+  const RoutesComponent = useRoutes([
+    {
+      path: "",
+      element: <Home />
+    },
+    {
+      path: "/tuyen-dung",
+      element: <TuyenDung />
     }
-  };
+  ]);
 
   return (
     <div className="wrapper">
-      <Header onDirect={handlePage} />
-      {Component}
+      <Header />
+      {RoutesComponent}
       <Footer />
     </div>
   );

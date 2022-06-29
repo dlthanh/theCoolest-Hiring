@@ -1,10 +1,9 @@
 import React, { FC } from "react";
+import { useNavigate } from "react-router-dom";
 
-interface HeaderProps {
-    onDirect: (key: string) => void
-}
+const Header: FC = (): JSX.Element => {
+  const navigate = useNavigate();
 
-const Header: FC<HeaderProps> = ({ onDirect }): JSX.Element => {
   return (
     <div className="header">
       <div className="header-logo">
@@ -12,8 +11,8 @@ const Header: FC<HeaderProps> = ({ onDirect }): JSX.Element => {
       </div>
 
       <div className="header-nav">
-        <div className="header-nav-item"onClick={() => onDirect("trang-chu")}>Who we are?</div>
-        <div className="header-nav-item" onClick={() => onDirect("tuyen-dung")}>Vacancy</div>
+        <div className="header-nav-item" onClick={() => navigate("/")}>Who we are?</div>
+        <div className="header-nav-item" onClick={() => navigate("/tuyen-dung")}>Vacancy</div>
         <div className="header-nav-item">Contact</div>
       </div>
     </div>

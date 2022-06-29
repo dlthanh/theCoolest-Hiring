@@ -34,6 +34,9 @@ html, body {
     display: flex;
     align-items: center;
     gap: 24px;
+    &-item {
+      cursor: pointer;
+    }
   }
 }
 
@@ -165,7 +168,20 @@ html, body {
   }
   &-info {
     display: flex;
-    gap: 32px;
+    flex-direction: column;
+    .row {
+      margin-bottom: 4px;
+      &:first-child {
+        display: flex;
+        gap: 32px;
+      }
+    }
+    &-item {
+      span {
+        display: inline-block;
+        width: 80px;
+      }
+    }
   }
   &-main {
     padding-left: 30px;
@@ -182,6 +198,7 @@ html, body {
   }
   &-content {
     list-style-position: inside;
+    font-size: 14px;
   }
 }
 
