@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/theCoolest-Hiring/static/css/main.2526613d.css",
-    "main.js": "/theCoolest-Hiring/static/js/main.8d7931c1.js",
-    "static/js/787.ecca19ad.chunk.js": "/theCoolest-Hiring/static/js/787.ecca19ad.chunk.js",
-    "static/media/SVN-Gilroy Medium.otf": "/theCoolest-Hiring/static/media/SVN-Gilroy Medium.bc38048ab09275875012.otf",
-    "static/media/SVN-Gilroy Regular.otf": "/theCoolest-Hiring/static/media/SVN-Gilroy Regular.6b1bcdc2754c31961cb9.otf",
-    "static/media/ROCK.TTF": "/theCoolest-Hiring/static/media/ROCK.d4c47d23aceb5a1710d6.TTF",
-    "static/media/TulpenOne-Regular.ttf": "/theCoolest-Hiring/static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
-    "index.html": "/theCoolest-Hiring/index.html",
-    "main.2526613d.css.map": "/theCoolest-Hiring/static/css/main.2526613d.css.map",
-    "main.8d7931c1.js.map": "/theCoolest-Hiring/static/js/main.8d7931c1.js.map",
-    "787.ecca19ad.chunk.js.map": "/theCoolest-Hiring/static/js/787.ecca19ad.chunk.js.map"
+    "main.css": "./static/css/main.d1595441.css",
+    "main.js": "./static/js/main.4b0f9907.js",
+    "static/js/787.ecca19ad.chunk.js": "./static/js/787.ecca19ad.chunk.js",
+    "static/media/SVN-Gilroy Medium.otf": "./static/media/SVN-Gilroy Medium.bc38048ab09275875012.otf",
+    "static/media/SVN-Gilroy Regular.otf": "./static/media/SVN-Gilroy Regular.6b1bcdc2754c31961cb9.otf",
+    "static/media/ROCK.TTF": "./static/media/ROCK.d4c47d23aceb5a1710d6.TTF",
+    "static/media/TulpenOne-Regular.ttf": "./static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
+    "index.html": "./index.html",
+    "main.d1595441.css.map": "./static/css/main.d1595441.css.map",
+    "main.4b0f9907.js.map": "./static/js/main.4b0f9907.js.map",
+    "787.ecca19ad.chunk.js.map": "./static/js/787.ecca19ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2526613d.css",
-    "static/js/main.8d7931c1.js"
+    "static/css/main.d1595441.css",
+    "static/js/main.4b0f9907.js"
   ]
 }
