@@ -1,15 +1,24 @@
-import React from "react";
+import React, { ReactElement, useEffect, useState } from "react";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
+import TuyenDung from "./components/TuyenDung";
 
 function App() {
+  const [Component, setComponent] = useState<ReactElement>(<Home onDirect={() => setComponent(<TuyenDung />)} />);
+
+  const handlePage = (page: string) => {
+    if (page === "trang-chu") {
+      setComponent(<Home onDirect={() => setComponent(<TuyenDung />)} />);
+    } else if (page === "tuyen-dung") {
+      setComponent(<TuyenDung />);
+    }
+  };
+
   return (
     <div className="wrapper">
-      <Header />
-      <Hero />
-      <About />
+      <Header onDirect={handlePage} />
+      {Component}
       <Footer />
     </div>
   );

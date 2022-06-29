@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "fonts";
 
 * {
@@ -102,8 +101,8 @@ html, body {
     width: 100%;
   }
   &-content {
-    font-family: "Roboto Slab", sans-serif;
-    font-weight: 300;
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
     width: 50%;
     p {
       margin-bottom: 16px;
@@ -117,6 +116,72 @@ html, body {
   &-text-row &-content {
     flex: 1;
     width: 100%;
+  }
+}
+
+.page {
+  &-header {
+    position: relative;
+    max-height: 450px;
+    height: 450px;
+    background: url("https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(#2d3436, .3);
+      z-index: 1;
+    }
+  }
+  &-heading {
+    position: relative;
+    z-index: 2;
+    font-size: 60px;
+  }
+}
+
+.hiring {
+  font-family: 'Gilroy', sans-serif;
+  padding: 0 60px;
+  margin-top: 60px;
+  &-item {
+    border-bottom: solid 1px #636e72;
+    padding-bottom: 30px;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+  &-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  &-info {
+    display: flex;
+    gap: 32px;
+  }
+  &-main {
+    padding-left: 30px;
+    margin-top: 16px;
+    display: flex;
+    gap: 60px;
+    .col {
+      flex: 1;
+    }
+  }
+  &-subtitle {
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  &-content {
+    list-style-position: inside;
   }
 }
 

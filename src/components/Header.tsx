@@ -1,6 +1,10 @@
 import React, { FC } from "react";
 
-const Header: FC = (): JSX.Element => {
+interface HeaderProps {
+    onDirect: (key: string) => void
+}
+
+const Header: FC<HeaderProps> = ({ onDirect }): JSX.Element => {
   return (
     <div className="header">
       <div className="header-logo">
@@ -8,8 +12,8 @@ const Header: FC = (): JSX.Element => {
       </div>
 
       <div className="header-nav">
-        <div className="header-nav-item">Who we are?</div>
-        <div className="header-nav-item">Vacancy</div>
+        <div className="header-nav-item"onClick={() => onDirect("trang-chu")}>Who we are?</div>
+        <div className="header-nav-item" onClick={() => onDirect("tuyen-dung")}>Vacancy</div>
         <div className="header-nav-item">Contact</div>
       </div>
     </div>
