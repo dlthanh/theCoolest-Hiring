@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.4e272122.css",
-    "main.js": "./static/js/main.03645b0e.js",
+    "main.js": "./static/js/main.1b00a1a2.js",
     "static/js/787.ecca19ad.chunk.js": "./static/js/787.ecca19ad.chunk.js",
     "static/media/SVN-Gilroy Medium.otf": "./static/media/SVN-Gilroy Medium.bc38048ab09275875012.otf",
     "static/media/SVN-Gilroy Regular.otf": "./static/media/SVN-Gilroy Regular.6b1bcdc2754c31961cb9.otf",
@@ -9,11 +9,11 @@
     "static/media/TulpenOne-Regular.ttf": "./static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
     "index.html": "./index.html",
     "main.4e272122.css.map": "./static/css/main.4e272122.css.map",
-    "main.03645b0e.js.map": "./static/js/main.03645b0e.js.map",
+    "main.1b00a1a2.js.map": "./static/js/main.1b00a1a2.js.map",
     "787.ecca19ad.chunk.js.map": "./static/js/787.ecca19ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e272122.css",
-    "static/js/main.03645b0e.js"
+    "static/js/main.1b00a1a2.js"
   ]
 }
