@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.1d7ad932.css",
-    "main.js": "./static/js/main.3ccde476.js",
+    "main.css": "./static/css/main.ad43ee7a.css",
+    "main.js": "./static/js/main.3a985159.js",
     "static/js/787.ecca19ad.chunk.js": "./static/js/787.ecca19ad.chunk.js",
+    "static/media/banner mobile.jpg": "./static/media/banner mobile.3372957d505e62573fc2.jpg",
     "static/media/img-6.jpg": "./static/media/img-6.c663b3c0950fadbb685e.jpg",
     "static/media/img-5.jpg": "./static/media/img-5.2b5d9fff77730f702488.jpg",
     "static/media/img-7.jpg": "./static/media/img-7.f6c29c3a592be7463760.jpg",
@@ -13,12 +14,12 @@
     "static/media/ROCK.TTF": "./static/media/ROCK.d4c47d23aceb5a1710d6.TTF",
     "static/media/TulpenOne-Regular.ttf": "./static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
     "index.html": "./index.html",
-    "main.1d7ad932.css.map": "./static/css/main.1d7ad932.css.map",
-    "main.3ccde476.js.map": "./static/js/main.3ccde476.js.map",
+    "main.ad43ee7a.css.map": "./static/css/main.ad43ee7a.css.map",
+    "main.3a985159.js.map": "./static/js/main.3a985159.js.map",
     "787.ecca19ad.chunk.js.map": "./static/js/787.ecca19ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d7ad932.css",
-    "static/js/main.3ccde476.js"
+    "static/css/main.ad43ee7a.css",
+    "static/js/main.3a985159.js"
   ]
 }
