@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.21b16ce3.css",
-    "main.js": "./static/js/main.f26003f3.js",
+    "main.css": "./static/css/main.1a40c097.css",
+    "main.js": "./static/js/main.d117509b.js",
     "static/js/787.ecca19ad.chunk.js": "./static/js/787.ecca19ad.chunk.js",
+    "static/media/banner mobile.jpg": "./static/media/banner mobile.3372957d505e62573fc2.jpg",
+    "static/media/img-6.jpg": "./static/media/img-6.c663b3c0950fadbb685e.jpg",
+    "static/media/img-5.jpg": "./static/media/img-5.2b5d9fff77730f702488.jpg",
+    "static/media/img-7.jpg": "./static/media/img-7.f6c29c3a592be7463760.jpg",
+    "static/media/img-1.jpg": "./static/media/img-1.e1b18636e23aa8d9661a.jpg",
     "static/media/SVN-Gilroy Medium.otf": "./static/media/SVN-Gilroy Medium.bc38048ab09275875012.otf",
     "static/media/SVN-Gilroy Regular.otf": "./static/media/SVN-Gilroy Regular.6b1bcdc2754c31961cb9.otf",
+    "static/media/banner.jpeg": "./static/media/banner.152b8a1475f13973b9a5.jpeg",
     "static/media/ROCK.TTF": "./static/media/ROCK.d4c47d23aceb5a1710d6.TTF",
     "static/media/TulpenOne-Regular.ttf": "./static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
     "index.html": "./index.html",
-    "main.21b16ce3.css.map": "./static/css/main.21b16ce3.css.map",
-    "main.f26003f3.js.map": "./static/js/main.f26003f3.js.map",
+    "main.1a40c097.css.map": "./static/css/main.1a40c097.css.map",
+    "main.d117509b.js.map": "./static/js/main.d117509b.js.map",
     "787.ecca19ad.chunk.js.map": "./static/js/787.ecca19ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21b16ce3.css",
-    "static/js/main.f26003f3.js"
+    "static/css/main.1a40c097.css",
+    "static/js/main.d117509b.js"
   ]
 }

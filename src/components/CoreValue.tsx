@@ -12,7 +12,7 @@ const CoreValue: FC = (): JSX.Element => {
   return (
     <div className="about-item">
       <div className="about-text  about-text-row">
-        <div className="about-heading">Core Value</div>
+        <div className="about-heading">Những Giá trị cốt lõi</div>
         <div className="about-content">
           <p>Có nhiều kiểu niềm vui trong cuộc sống, nhưng niềm vui ở The Coolest là một màu sắc rất thuần khiết và văn minh. Trải nghiệm đó chỉ có thể đạt được thông qua các giá trị dưới đây:</p>
 

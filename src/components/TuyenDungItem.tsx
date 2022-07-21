@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC, useState } from "react";
 
 interface JobInterface {
     job: string,
@@ -16,13 +16,22 @@ interface TuyenDungItemProps {
 }
 
 const TuyenDungItem: FC<TuyenDungItemProps> = ({ data }): JSX.Element => {
+  const [isShow, setIsShow] = useState<boolean>(false);
+
   return (
     <div className="hiring-item">
-      <div className="hiring-title">{data.job}</div>
+      <div className="hiring-title">
+        <span>{data.job}</span>
+        <div className="view-more" onClick={() => setIsShow(!isShow)}>
+          {isShow ? "Thu gọn" : "Xem thêm"}
+        </div>
+      </div>
 
       <div className="hiring-info">
         <div className="row">
           <div className="hiring-info-item"><span>Số lượng:</span> {data.quantity}</div>
+        </div>
+        <div className="row">
           <div className="hiring-info-item"><span>Mức lương:</span> {data.salary}</div>
         </div>
         <div className="row">
@@ -33,7 +42,7 @@ const TuyenDungItem: FC<TuyenDungItemProps> = ({ data }): JSX.Element => {
         </div>
       </div>
 
-      <div className="hiring-main">
+      <div className={`hiring-main ${!isShow && "hidden"}`}>
         <div className="col">
           <div className="hiring-subtitle">Mô tả công việc</div>
           <ul className="hiring-content">
@@ -54,6 +63,10 @@ const TuyenDungItem: FC<TuyenDungItemProps> = ({ data }): JSX.Element => {
             {data.benefits.map((item, index) => <li key={index}>{item}</li>)}
           </ul>
         </div>
+      </div>
+
+      <div className="hiring-action">
+        <a href="https://forms.gle/aaryzuDeGKUVoprC6" target="_blank" rel="noreferrer">Ứng tuyển</a>
       </div>
     </div>
   );

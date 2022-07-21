@@ -1,27 +1,51 @@
-import React, { FC } from "react";
+import React, { FC, useCallback, useState } from "react";
 import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
 
 const IMAGES = [
-  { src: "https://i.pinimg.com/564x/c6/e5/ae/c6e5ae27f0b034d4acc237b28070dbab.jpg", width: 2, height: 3 },
-  { src: "https://i.pinimg.com/564x/08/d4/83/08d4834ff8d6577f9e79d87185578b25.jpg", width: 2, height: 3 },
-  { src: "https://i.pinimg.com/564x/7a/d3/da/7ad3dae85dc1ac5ba5a4840321dd1344.jpg", width: 1, height: 1 }
+  { src: "./assets/images/img-8.jpg", width: 1, height: 1 },
+  { src: "./assets/images/img-9.jpg", width: 2, height: 3 },
+  { src: "./assets/images/img-10.jpg", width: 1, height: 1 },
+  { src: "./assets/images/img-11.jpg", width: 3, height: 4 },
+  { src: "./assets/images/img-12.jpg", width: 1400, height: 933 },
 ];
 
 const WhoWeAre: FC = (): JSX.Element => {
+  const [currentImage, setCurrentImage] = useState<number>(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+  const openLightbox = useCallback((event: any, { photo, index }: any) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
+
   return (
     <div className="about-item">
       <div className="about-text">
-        <div className="about-heading">Who we are?</div>
+        <div className="about-heading">Chúng tôi là ai?</div>
         <div className="about-content">
-                  The Coolest là một dự án Khu tổ hợp Giải trí cho người trưởng thành, phục vụ nhu cầu giải trí lành mạnh và phấn khích. Đặc trưng trong các dịch vụ của The Coolest là sự kết hợp giữa 3 yếu tố: sự Phấn khích, sự Văn minh và sự Phục vụ. Khu Tổ hợp The Coolest đầu tiên đặt tại Long Biên, Hà Nội với các hoạt động giải trí vô cùng trendy: bắn cung, ném rìu, camping, chiếu phim ngoài trời, boardgames, kios check-in, cafe, tiệc BBQ, nhạc sống, tarot, … Đến với The Coolest để có những trải nghiệm thư giãn đúng nghĩa, lành mạnh và mới mẻ mỗi tuần.
+                    The Coolest là một dự án Khu tổ hợp Giải trí cho người trưởng thành, là sự kết hợp giữa 3 yếu tố: Các trò chơi vận động hiện đại, Không gian chill từng khoảnh khắc và Trải nghiệm dịch vụ thiên thần. Khu Tổ hợp đầu tiên được đặt tại Long Biên, Hà Nội với các hoạt động giải trí vô cùng trendy như bắn cung, ném rìu, camping, chiếu phim ngoài trời, boardgames, kios check-in, cafe, tiệc BBQ, nhạc sống, tarot… Cùng với đó là một ứng dụng trên di động để khách hàng có thể trải nghiệm Khu tổ hợp một cách dễ dàng, thuận thiện và độc đáo nhất. Tầm nhìn của The Coolest tới năm 2025 sẽ có 10 chi nhánh trên toàn quốc, tập trung ở các thành phố lớn và khu du lịch.
         </div>
       </div>
 
-      <div className="about-images">
-        {/*<Images />*/}
-      </div>
-
-      <Gallery photos={IMAGES} />
+      <Gallery photos={IMAGES} limitNodeSearch={3} onClick={openLightbox} />
+      {/*eslint-disable-next-line @typescript-eslint/ban-ts-comment*/}
+      {/*@ts-ignore*/}
+      <ModalGateway>
+        {viewerIsOpen ? (
+          <Modal onClose={closeLightbox}>
+            <Carousel
+              currentIndex={currentImage}
+              views={IMAGES.map(x => ({ ...x, source: x.src }))}
+            />
+          </Modal>
+        ) : null}
+      </ModalGateway>
     </div>
   );
 };
