@@ -1,71 +1,470 @@
 [
   {
-    "job": "Nhân viên pha chế",
-    "quantity": 3,
-    "salary": "5.000.000đ",
-    "working_time": "8h30 - 17h30 (từ thứ 2 - thứ 7, thứ 7 làm việc cách tuần)",
-    "address": "Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
-    "description": [
-      "Quản lí các hoạt động về hành chính, văn phòng",
-      "Quản lí, lưu trữ hồ sơ nhân viên",
-      "Xây dựng được kế hoạch tuyển dụng cụ thể, kiểm soát thực hiện tuyển dụng hiệu quả"
+    "job":"Trưởng nhóm pha chế",
+    "quantity":1,
+    "salary":"8.000.000 - 12.000.000đ",
+    "working_time":"2.00PM - 10.00PM (6 ngày / tuần)",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Phụ trách tuyển dụng và đào tạo đội ngũ nhân sự mới",
+      "Xây dựng menu và lên ý tưởng cho các đồ uống mới cho khu cafe",
+      "Giao tiếp và kết nối với khách hàng",
+      "Duy trì môi trường khuôn viên dịch vụ sạch sẽ, chất lượng đồ uống đạt tiêu chuẩn và dịch vụ hài lòng khách hàng",
+      "Đảm bảo khách hàng được đón tiếp niềm nở khi ghé thăm khu vực cafe bằng cách chào đón, kịp thời hỗ trợ khách hàng khi cần thiết",
+      "Order hàng hoá và nguyên vật liệu",
+      "Phụ trách kiểm kho, đảm bảo nguyên liệu luôn sẵn sàng trong mỗi ca làm việc",
+      "Giữ gìn và bảo quản tài sản, thiết bị máy móc sử dụng trong khu phức hợp",
+      "Thực hiện các nhiệm vụ khác theo yêu cầu từ quản lý"
     ],
-    "benefits": [
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Trở thành người thiết lập và phát triển menu đồ uống của khu phức hợp",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
       "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
-      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty",
-      "Được làm việc tại một môi trường năng động, thân thiện.",
-      "Có cơ hội để học hỏi rất nhanh và phát triển sự nghiệp bền vững trong ngành F&B."
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
     ],
-    "requirements": [
-      "Tốt nghiệp Cao đẳng hoặc Đại học trở lên",
-      "Tối thiểu 1 năm kinh nghiệm trong các doanh nghiệp",
-      "Tư duy linh hoạt và thích nghi"
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Khả năng lắng nghe và tiếp nhận đúng nhu cầu khách hàng",
+      "Nỗ lực tìm kiếm cơ hội và cách thức làm khách hàng hài lòng",
+      "Hiểu rõ hoạt động dịch vụ của khu giải trí để gợi ý dịch vụ phù hợp cho khách hàng",
+      "Cởi mở lắng nghe và đón nhận góc nhìn đa chiều, đa dạng từ mọi người",
+      "Đặt tiêu chuẩn cao để luôn nỗ lực hết mình trong công việc",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Linh hoạt và sáng tạo trong cách xử lý tình huống và giải quyết vấn đề",
+      "Có khả năng giao tiếp tốt, làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung",
+      "Xây dựng và phát triển văn hoá công ty trong môi trường làm việc đội nhóm và gắn kểt, động viên các thành viên trong nhóm",
+      "Có khả năng đào tạo nhân viên",
+      "Kiểm soát được hàng hoá nhập và xuất kho",
+      "Kĩ năng sử dụng phần mềm MS Office",
+      "Từng có kinh nghiệm xây dựng menu, trưởng nhóm tại các quán cafe khác là một lợi thế"
     ]
   },
   {
-    "job": "Nhân viên pha chế",
-    "quantity": 3,
-    "salary": "5.000.000đ",
-    "working_time": "8h30 - 17h30 (từ thứ 2 - thứ 7, thứ 7 làm việc cách tuần)",
-    "address": "Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
-    "description": [
-      "Quản lí các hoạt động về hành chính, văn phòng",
-      "Quản lí, lưu trữ hồ sơ nhân viên",
-      "Xây dựng được kế hoạch tuyển dụng cụ thể, kiểm soát thực hiện tuyển dụng hiệu quả"
+    "job":"Hướng dẫn viên (Khu ném rìu)",
+    "quantity":3,
+    "salary":"6.500.000 - 8.000.000đ",
+    "working_time":"Ca 1: 2.00PM - 7.00PM - Ca 2: 5.30PM - 10.30PM (3-4 buổi / tuần)",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Bản chất là nhân sự pha chế/ order/ phục vụ nhưng được deployment theo ngày để trực khu vực vui chơi",
+      "Đảm bảo các nguyên tắc an toàn trong quá trình khách chơi",
+      "Giao tiếp tốt, biết khuấy động phong trào, biết khen ngợi đúng lúc"
     ],
-    "benefits": [
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Được tìm hiểu bài bản về các loại hình giải trí khác nhau và tất nhiên, được miễn phí chơi trò chơi tại khu phức hợp",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
       "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
-      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty",
-      "Được làm việc tại một môi trường năng động, thân thiện.",
-      "Có cơ hội để học hỏi rất nhanh và phát triển sự nghiệp bền vững trong ngành F&B."
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
     ],
-    "requirements": [
-      "Tốt nghiệp Cao đẳng hoặc Đại học trở lên",
-      "Tối thiểu 1 năm kinh nghiệm trong các doanh nghiệp",
-      "Tư duy linh hoạt và thích nghi"
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Khả năng lắng nghe và tiếp nhận đúng nhu cầu khách hàng",
+      "Nỗ lực tìm kiếm cơ hội và cách thức làm khách hàng hài lòng",
+      "Hiểu rõ hoạt động dịch vụ của khu giải trí để gợi ý dịch vụ phù hợp cho khách hàng",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Có khả năng giao tiếp tốt, ứng xử lễ phép, lịch sự",
+      "Ngoại hình chỉn chu, gọn gàng",
+      "Khả năng làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung",
+      "Đam mê các hoạt động giải trí ngoài trời là một lợi thế"
     ]
   },
   {
-    "job": "Nhân viên pha chế",
-    "quantity": 3,
-    "salary": "5.000.000đ",
-    "working_time": "8h30 - 17h30 (từ thứ 2 - thứ 7, thứ 7 làm việc cách tuần)",
-    "address": "Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
-    "description": [
-      "Quản lí các hoạt động về hành chính, văn phòng",
-      "Quản lí, lưu trữ hồ sơ nhân viên",
-      "Xây dựng được kế hoạch tuyển dụng cụ thể, kiểm soát thực hiện tuyển dụng hiệu quả"
+    "job":"Talent Acquisition Executive",
+    "quantity":1,
+    "salary":"8.000.000 - 12.000.000đ",
+    "working_time":"9.00AM - 6.00PM Thứ 2-Thứ 6",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Tiếp nhận và tổng hợp các nhu cầu về tuyển dụng của các bộ phận, lên kế hoạch và chịu trách nhiệm về việc thực hiện kế hoạch tuyển dụng đó.",
+      "Soạn thảo, lưu trữ mô tả và yêu cầu công việc trên hệ thống dữ liệu.",
+      "Đánh giá và lựa chọn các kênh tuyển dụng phù hợp theo từng vị trí tuyển dụng yêu cầu. Liên hệ tìm kiếm nguồn ứng viên qua các kênh đăng tuyển, tìm mời thông qua các website, diễn đàn, …",
+      "Sàng lọc hồ sơ, liên hệ trao đổi và đặt lịch hẹn phỏng vấn với ứng viên và bộ phận có liên quan.",
+      "Tham gia thực hiện các nhiệm vụ của công tác quản trị nhân sự gồm: thông báo nhận việc với nhân sự mới, onboarding, theo dõi diễn biến nhân sự trong 60 ngày làm việc đầu tiên, lập báo cáo tuyển dụng theo tuần/ tháng",
+      "Xây dựng mối quan hệ và hợp tác đối nội (các phòng ban, nhân sự mới) và đối ngoại (ứng viên, nguồn tuyển dụng chiến lược)",
+      "Hỗ trợ đào tạo và phát triển nhân sự mới",
+      "Thực hiện một số công việc khác theo yêu cầu."
     ],
-    "benefits": [
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Cơ hội được làm việc và phát triển chuyên môn về nhiều mảng trong nhân sự, từ tuyển dụng, đào tạo, gắn kết nội bộ đến quan hệ lao động",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
       "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
-      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty",
-      "Được làm việc tại một môi trường năng động, thân thiện.",
-      "Có cơ hội để học hỏi rất nhanh và phát triển sự nghiệp bền vững trong ngành F&B."
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
     ],
-    "requirements": [
-      "Tốt nghiệp Cao đẳng hoặc Đại học trở lên",
-      "Tối thiểu 1 năm kinh nghiệm trong các doanh nghiệp",
-      "Tư duy linh hoạt và thích nghi"
+    "requirements":[
+      "Thích làm việc, giao tiếp và phát triển con người.",
+      "Tư duy tăng trưởng (growth mindset), không ngừng học hỏi và phát triển",
+      "Tinh thần làm việc nhóm và khả năng hợp tác, giao tiếp hiệu quả giữa các phòng ban và nhân sự nội bộ",
+      "Tư duy phản biện tốt và kĩ năng giải quyết vấn đề linh hoạt",
+      "Sử dụng thành thạo Tin học Văn phòng: tổng hợp dữ liệu, báo cáo thông tin, hệ thống hoá lưu trữ dữ liệu tuyển dụng",
+      "Tốt nghiệp Cử nhân/ Cao đẳng chuyên ngành về Quản trị nhân lực, Hành chính, Kinh tế, Luật …",
+      "Nắm rõ các kiến thức về hành chính nhân sự, tuyển dụng, luật lao động, BHXH…",
+      "Kinh nghiệm 1+ năm ở vị trí tương đương là một lợi thế"
+    ]
+  },
+  {
+    "job":"Nhân viên pha chế - Full-time",
+    "quantity":1,
+    "salary":"6.500.000 - 8.000.000đ",
+    "working_time":"2.00PM - 10.30PM",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Thu ngân, giao tiếp, giới thiệu sản phẩm với khách hàng",
+      "Phục vụ đồ ăn, đồ uống tại bàn cho khách",
+      "Duy trì môi trường khuôn viên dịch vụ sạch sẽ",
+      "Đảm bảo khách hàng được đón tiếp niềm nở khi ghé thăm khu vực cafe bằng cách chào đón, kịp thời hỗ trợ khách hàng khi cần thiết",
+      "Hỗ trợ kiểm kho, đếm hàng và đảm bảo nguyên liệu luôn sẵn sàng trong mỗi ca làm việc",
+      "Giữ gìn và bảo quản tài sản, thiết bị máy móc sử dụng trong khu phức hợp",
+      "Thực hiện các nhiệm vụ khác theo yêu cầu từ quản lý"
+    ],
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Khả năng lắng nghe và tiếp nhận đúng nhu cầu khách hàng",
+      "Nỗ lực tìm kiếm cơ hội và cách thức làm khách hàng hài lòng",
+      "Hiểu rõ hoạt động dịch vụ của khu giải trí để gợi ý dịch vụ phù hợp cho khách hàng",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Có khả năng giao tiếp tốt, ứng xử lễ phép, lịch sự",
+      "Ngoại hình chỉn chu, gọn gàng",
+      "Khả năng làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung"
+    ]
+  },
+  {
+    "job":"Nhân viên pha chế - Part-time",
+    "quantity":2,
+    "salary":"22.000 - 26.000đ / h",
+    "working_time":"Ca 1: 2.00PM - 7.00PM - Ca 2: 5.30PM - 10.30PM (3-4 buổi / tuần)",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Thu ngân, giao tiếp, giới thiệu sản phẩm với khách hàng",
+      "Phục vụ đồ ăn, đồ uống tại bàn cho khách",
+      "Duy trì môi trường khuôn viên dịch vụ sạch sẽ",
+      "Đảm bảo khách hàng được đón tiếp niềm nở khi ghé thăm khu vực cafe bằng cách chào đón, kịp thời hỗ trợ khách hàng khi cần thiết",
+      "Hỗ trợ kiểm kho, đếm hàng và đảm bảo nguyên liệu luôn sẵn sàng trong mỗi ca làm việc",
+      "Giữ gìn và bảo quản tài sản, thiết bị máy móc sử dụng trong khu phức hợp",
+      "Thực hiện các nhiệm vụ khác theo yêu cầu từ quản lý"
+    ],
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Khả năng lắng nghe và tiếp nhận đúng nhu cầu khách hàng",
+      "Nỗ lực tìm kiếm cơ hội và cách thức làm khách hàng hài lòng",
+      "Hiểu rõ hoạt động dịch vụ của khu giải trí để gợi ý dịch vụ phù hợp cho khách hàng",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Có khả năng giao tiếp tốt, ứng xử lễ phép, lịch sự",
+      "Ngoại hình chỉn chu, gọn gàng",
+      "Khả năng làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung"
+    ]
+  },
+  {
+    "job":"Nhân viên phục vụ - Full-time",
+    "quantity":3,
+    "salary":"6.500.000 - 8.000.000đ",
+    "working_time":"Ca 1: 2.00PM - 10.00PM - Ca 2: 3.00PM - 11.00PM",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Thu ngân, giao tiếp, giới thiệu sản phẩm với khách hàng",
+      "Phục vụ đồ ăn, đồ uống tại bàn cho khách",
+      "Duy trì môi trường khuôn viên dịch vụ sạch sẽ",
+      "Đảm bảo khách hàng được đón tiếp niềm nở khi ghé thăm khu vực cafe bằng cách chào đón, kịp thời hỗ trợ khách hàng khi cần thiết",
+      "Hỗ trợ kiểm kho, đếm hàng và đảm bảo nguyên liệu luôn sẵn sàng trong mỗi ca làm việc",
+      "Giữ gìn và bảo quản tài sản, thiết bị máy móc sử dụng trong khu phức hợp",
+      "Thực hiện các nhiệm vụ khác theo yêu cầu từ quản lý"
+    ],
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Khả năng lắng nghe và tiếp nhận đúng nhu cầu khách hàng",
+      "Nỗ lực tìm kiếm cơ hội và cách thức làm khách hàng hài lòng",
+      "Hiểu rõ hoạt động dịch vụ của khu giải trí để gợi ý dịch vụ phù hợp cho khách hàng",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Có khả năng giao tiếp tốt, ứng xử lễ phép, lịch sự",
+      "Ngoại hình chỉn chu, gọn gàng",
+      "Khả năng làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung"
+    ]
+  },
+  {
+    "job":"Nhân viên phục vụ - Part-time",
+    "quantity":1,
+    "salary":"6.500.000 - 8.000.000đ",
+    "working_time":"Ca 1: 2.00PM - 7.00PM - Ca 2: 5.30PM - 10.30PM",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Thu ngân, giao tiếp, giới thiệu sản phẩm với khách hàng",
+      "Phục vụ đồ ăn, đồ uống tại bàn cho khách",
+      "Duy trì môi trường khuôn viên dịch vụ sạch sẽ",
+      "Đảm bảo khách hàng được đón tiếp niềm nở khi ghé thăm khu vực cafe bằng cách chào đón, kịp thời hỗ trợ khách hàng khi cần thiết",
+      "Hỗ trợ kiểm kho, đếm hàng và đảm bảo nguyên liệu luôn sẵn sàng trong mỗi ca làm việc",
+      "Giữ gìn và bảo quản tài sản, thiết bị máy móc sử dụng trong khu phức hợp",
+      "Thực hiện các nhiệm vụ khác theo yêu cầu từ quản lý"
+    ],
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Khả năng lắng nghe và tiếp nhận đúng nhu cầu khách hàng",
+      "Nỗ lực tìm kiếm cơ hội và cách thức làm khách hàng hài lòng",
+      "Hiểu rõ hoạt động dịch vụ của khu giải trí để gợi ý dịch vụ phù hợp cho khách hàng",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Có khả năng giao tiếp tốt, ứng xử lễ phép, lịch sự",
+      "Ngoại hình chỉn chu, gọn gàng",
+      "Khả năng làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung"
+    ]
+  },
+  {
+    "job":"Lễ tân",
+    "quantity":2,
+    "salary":"6.000.000 - 8.000.000đ",
+    "working_time":"Ca 1: 2.00PM - 7.00PM - Ca 2: 5.00PM - 10.00PM",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Trực tại khu vực lễ tân để đón tiếp và hỗ trợ khách thủ tục mua vé",
+      "Tư vấn và hỗ trợ khách download và sử dụng App của khu phức hợp. Hướng dẫn khách nạp tiền vào tài khoản thanh toán hoặc thông qua internet banking",
+      "Phụ trách trả lời hotline, fanpage để nhận booking hoặc tư vấn các dịch vụ của khu phức hợp",
+      "Giới thiệu sơ bộ các dịch vụ khuôn viên để khách nắm được trước khi trải nghiệm dịch vụ",
+      "Thực hiện các nhiệm vụ khác được giao khi cần"
+    ],
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Khả năng lắng nghe và tiếp nhận đúng nhu cầu khách hàng",
+      "Nỗ lực tìm kiếm cơ hội và cách thức làm khách hàng hài lòng",
+      "Hiểu rõ hoạt động dịch vụ của khu giải trí để gợi ý dịch vụ phù hợp cho khách hàng",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Có khả năng giao tiếp tốt, ứng xử lễ phép, lịch sự",
+      "Ngoại hình chỉn chu, gọn gàng",
+      "Khả năng làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung"
+    ]
+  },
+  {
+    "job":"Chuyên viên vẽ 3D",
+    "quantity":1,
+    "salary":"Thương lượng",
+    "working_time":"Linh hoạt",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Nhận ý tưởng từ Founder để thể hiện ra thành bản vẽ",
+      "Thực hiện diễn họa 3D và chỉnh sửa",
+      "Bóc tác từ bản 3D thành bản vẽ 2D kỹ thuật để thi công",
+      "Nghiên cứu tìm tòi các vật liệu phù họp với ý tưởng",
+      "Hỗ trợ với các team liên quan để triển khai thiết kế ra công trình thực tế"
+    ],
+    "benefits":[
+      "Cơ hội được lên ý tưởng, vẽ và phát triển một dự án khu phức hợp giải trí chưa từng có tại Việt Nam",
+      "Thu nhập cạnh tranh",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật"
+    ],
+    "requirements":[
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Đam mê với công việc vẽ và yêu thích sản phẩm của khu phức hợp",
+      "Khả năng làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung",
+      "Tư duy logic và làm việc cẩn thận, tỉ mỉ",
+      "Tốt nghiệp ĐH các chuyện ngành liên quan tới kiến trúc, xây dựng",
+      "Ít nhất 1 năm kinh nghiệm làm việc ở vị trí tương đương",
+      "Thành thạo sử dụng các phần mềm như Sketch, CAD hoặc các phần mềm tương đương",
+      "Làm việc theo dự án 3-6 tháng bắt đầu từ tháng 8"
+    ]
+  },
+  {
+    "job":"Nhân viên mua bán và cung ứng kho vận",
+    "quantity":1,
+    "salary":"6.000.000 - 9.000.000đ",
+    "working_time":"9.00AM - 6.00PM Thứ 2-Thứ 6",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Phụ trách thu thập thông tin về kho vận và nhu cầu mua bán nguyên vật liệu của các khu vực trong khu phức hợp",
+      "Phụ trách làm việc với các phòng ban nội bộ, kiểm tra hàng hoá và lưu kho hiệu quả",
+      "Làm việc trực tiếp với các đối tác để tối ưu giá thành mua và lưu kho nguyên vật liệu"
+    ],
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Linh hoạt và sáng tạo trong cách xử lý tình huống và giải quyết vấn đề",
+      "Có khả năng giao tiếp tốt, làm việc nhóm và hợp tác để cùng đạt được mục tiêu chung",
+      "Yêu cầu ứng viên cẩn thẩn, chú tâm đến tiểu tiết và có khả năng sử dụng MS Office tốt"
+    ]
+  },
+  {
+    "job":"Nhân viên bảo trì",
+    "quantity":1,
+    "salary":"7.000.000 - 9.000.000đ",
+    "working_time":"12:00-20:00 & 16:00-24:00",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Phụ trách sửa chữa các nghiệp vụ điện, nước, cơ khí cơ bản.",
+      "Phụ trách kiểm tra và bảo trì các thiết bị thường xuyên: Vít bàn ghế, Ô dù, Lều, ánh sáng, ... các cơ sở vật chất thuộc khuôn viên",
+      "Kiểm tra các phương án PCCC và đảm bảo bình cứu hoả luôn sử dụng tốt.",
+      "Duy trì cảnh quan, biết chăm sóc cây cảnh."
+    ],
+    "benefits":[
+      "Cơ hội gia nhập đội ngũ nhân sự đầu tiên phát triển dự án và thăng tiến khi khu phức hợp mở rộng quy mô",
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Thích giúp đỡ và quan tâm đến người khác",
+      "Thân thiện, dễ gần và nhiệt tình hỗ trợ khách hàng cũng như đồng nghiệp",
+      "Tinh thần sẵn sàng làm việc và hành động đến cùng",
+      "Ham học hỏi và mong muốn phát triển bản thân",
+      "Đảm bảo thiết bị máy móc được vận hành và bảo trì trơn tru",
+      "Cắt cỏ và chăm sóc cảnh quan khuôn viên sân bãi",
+      "Sửa chữa máy móc, điện lạnh"
+    ]
+  },
+  {
+    "job":"Bảo vệ ca đêm",
+    "quantity":1,
+    "salary":"5.000.000 - 8.000.000đ",
+    "working_time":"10.00PM - 10.00AM",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Phụ trách trông giữ xe cộ cho khách, nhân viên và bảo vệ tài sản của khu phức hợp trong ca làm",
+      "Đảm bảo kiểm tra và kiểm soat tài sản ra vào khu vực, ghi nhận và xác minh với phòng ban liên quan nếu cần",
+      "Phát hiện sớm các sự cố tiềm ẩn, báo cáo kịp thời cho quản lý",
+      "Biết sử dụng bình cứu hoả và hiểu các phương án PCCC",
+      "Biết các vị trí Atomat điện và phương án xử lý sự cố điện cơ bản",
+      "Đưa tờ rơi cho khách vãng lai (nếu có)"
+    ],
+    "benefits":[
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Ngủ lại qua đêm",
+      "Hỗ trợ thu dọn đồ đạc, cơ sở vật chất cuối ca",
+      "Trông xe và hướng dẫn khách ra vào",
+      "Thái độ hoà nhã, lịch sự."
+    ]
+  },
+  {
+    "job":"Bảo vệ ban ngày",
+    "quantity":1,
+    "salary":"5.000.000 - 8.000.000đ",
+    "working_time":"10.00AM - 10.00PM",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Phụ trách trông giữ xe cộ cho khách, nhân viên và bảo vệ tài sản của khu phức hợp trong ca làm",
+      "Đảm bảo kiểm tra và kiểm soat tài sản ra vào khu vực, ghi nhận và xác minh với phòng ban liên quan nếu cần",
+      "Phát hiện sớm các sự cố tiềm ẩn, báo cáo kịp thời cho quản lý",
+      "Biết sử dụng bình cứu hoả và hiểu các phương án PCCC",
+      "Biết các vị trí Atomat điện và phương án xử lý sự cố điện cơ bản",
+      "Đưa tờ rơi cho khách vãng lai (nếu có)"
+    ],
+    "benefits":[
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, thưởng doanh số hàng quý, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
+    ],
+    "requirements":[
+      "Hỗ trợ thu dọn đồ đạc, cơ sở vật chất cuối ca",
+      "Trông xe và hướng dẫn khách ra vào"
+    ]
+  },
+  {
+    "job":"Tạp vụ",
+    "quantity":1,
+    "salary":"5.000.000 - 8.000.000đ",
+    "working_time":"Ca gãy 10.00AM - 2.00PM hoặc 6.00PM - 10.00PM",
+    "address":"Số 3, ngõ 184 Thạch Bàn, Long Biên, Hà Nội",
+    "description":[
+      "Phụ trách đảm bảo vệ sinh cho khuôn viên phức hợp, đặc biệt là khu vực nhà vệ sinh cho khách"
+    ],
+    "benefits":[
+    ],
+    "requirements":[
+      "Thu nhập cạnh tranh",
+      "Tháng lương thứ 13, xét tăng lương hàng năm",
+      "Được đóng đầy đủ các loại bảo hiểm theo quy định của Nhà nước",
+      "Được tham gia các hoạt động nghỉ mát, team building định kỳ cùng công ty, tổ chức sinh nhật",
+      "Chế độ đãi ngộ theo quy định của Công ty (12 ngày nghỉ phép năm, ốm đau, hiếu hỉ, thai sản…)",
+      "Trợ cấp xăng xe, điện thoại (tuỳ trường hợp)"
     ]
   }
 ]

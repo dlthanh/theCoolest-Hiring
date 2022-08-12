@@ -14,13 +14,13 @@ const CoreValue: FC = (): JSX.Element => {
       <div className="about-text  about-text-row">
         <div className="about-heading">Những Giá trị cốt lõi</div>
         <div className="about-content">
-          <p>Có nhiều kiểu niềm vui trong cuộc sống, nhưng niềm vui ở The Coolest là một màu sắc rất thuần khiết và văn minh. Trải nghiệm đó chỉ có thể đạt được thông qua các giá trị dưới đây:</p>
+          <p>Có nhiều kiểu niềm vui trong cuộc sống, nhưng niềm vui ở The Coolest là một màu sắc rất thuần khiết và văn minh. Trải nghiệm đó chỉ có thể đạt được thông qua các giá trị cốt lõi dưới đây:</p>
 
           <ul>
-            <li><em><strong>Lấy sự bình thường làm Kẻ thù lớn nhất:</strong></em> The Coolest không phải nơi để an phận, kiếm 1 công việc sống qua ngày. Đây là chuyến tàu của những người có niềm tin, có sự háo hức khám phá bản thân và những giới hạn thông thường.</li>
+            <li><em><strong>Lấy sự bình thường làm Kẻ thù lớn nhất:</strong></em> The Coolest không phải nơi để an phận, kiếm một công việc sống qua ngày. Đây là chuyến tàu của những người có lý tưởng sống, có sự háo hức khám phá bản thân và vượt lên những giới hạn thông thường.</li>
             <li><em><strong>Lấy Khách hàng làm trung tâm:</strong></em> Một trải nghiệm tuyệt vời là thứ khách hàng tìm kiếm ở The Coolest và chúng tôi muốn chắc chắn họ sẽ có được điều đó một cách xuất sắc nhất.</li>
             <li><em><strong>Lấy sự Văn minh làm định vị:</strong></em> Khi khách hàng nghĩ về The Coolest giữa những lựa chọn  khác, họ sẽ nhớ về một không gian giải trí rất Văn minh và đặc biệt.</li>
-            <li><em><strong>Lấy sự Khai phá làm thước đo:</strong></em> The Coolest là nơi từng con người từng trải nghiệm đều được đổi mới không ngừng, phá bỏ các ranh giới và lối mòn, hôm nay mới hơn và tốt hơn hôm qua.</li>
+            <li><em><strong>Lấy sự Chân thành làm chìa khóa vạn năng:</strong></em> Khi đứng trước nhiều lựa chọn cho một việc quan trọng thì chân thành luôn là giải pháp hiệu quả nhất, đơn giản nhất và có lợi nhất.</li>
             <li><em><strong>Lấy Văn hóa công ty làm tài sản lớn nhất:</strong></em> Mọi quy trình và sản phẩm đều có thể sao chép nhưng văn hóa và con người thì không.</li>
           </ul>
         </div>
